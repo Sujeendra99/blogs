@@ -123,7 +123,9 @@ export default function Home() {
             <Link
               href={`https://www.linkedin.com/shareArticle?mini=true&url=https://vercel.app/&image=https://vercel.app/&title=hello&summary=hello1`}
               target="_blank"
-            ></Link>
+            >
+              SHare
+            </Link>
           </a>
         </div>
       </main>
