@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -119,6 +120,10 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a shareable URL with Vercel.
             </p>
+            <Link
+              href={`https://www.linkedin.com/shareArticle?mini=true&url=https://vercel.app/&image=https://vercel.app/&title=hello&summary=hello1`}
+              target="_blank"
+            ></Link>
           </a>
         </div>
       </main>
